@@ -60,7 +60,7 @@
 </h2>
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Lonelykingsl/YukkiMusicBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
+<a href="https://telegram.dog/XTZ_HerokuBot?start=TG9uZWx5c2luZy9UaGFuaW1haW11c2ljcyBtYWlu"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 
 </p>
 
