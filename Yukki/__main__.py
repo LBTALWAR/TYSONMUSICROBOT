@@ -94,7 +94,7 @@ async def initiate_bot():
             status="[bold blue]Importation Completed!",
         )
     console.print(
-        "[bold green]Congrats!! Yukki Music Bot has started successfully!\n"
+        "[bold green]Congrats!! Tyson Music Bot has started successfully!\n"
     )
     try:
         await app.send_message(
@@ -127,8 +127,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_1.join_chat("OfficialYukki")
-            await ASS_CLI_1.join_chat("YukkiSupport")
+            await ASS_CLI_1.join_chat("TEAM_TYSON")
+            await ASS_CLI_1.join_chat("TYSON_SUPPORT_GROUP")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -146,8 +146,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_2.join_chat("OfficialYukki")
-            await ASS_CLI_2.join_chat("YukkiSupport")
+            await ASS_CLI_2.join_chat("TEAM_TYSON")
+            await ASS_CLI_2.join_chat("TYSON_SUPPORT_GROUP")
         except:
             pass
         console.print(f"├[red] Assistant 2 Started as {ASSNAME2}!")
@@ -165,8 +165,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_3.join_chat("OfficialYukki")
-            await ASS_CLI_3.join_chat("YukkiSupport")
+            await ASS_CLI_3.join_chat("TEAM_TYSON")
+            await ASS_CLI_3.join_chat("TYSON_SUPPORT_GROUP")
         except:
             pass
         console.print(f"├[red] Assistant 3 Started as {ASSNAME3}!")
@@ -184,8 +184,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_4.join_chat("OfficialYukki")
-            await ASS_CLI_4.join_chat("YukkiSupport")
+            await ASS_CLI_4.join_chat("TEAM_TYSON")
+            await ASS_CLI_4.join_chat("TYSON_SUPPORT_GROUP")
         except:
             pass
         console.print(f"├[red] Assistant 4 Started as {ASSNAME4}!")
@@ -203,8 +203,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_5.join_chat("OfficialYukki")
-            await ASS_CLI_5.join_chat("YukkiSupport")
+            await ASS_CLI_5.join_chat("TEAM_TYSON")
+            await ASS_CLI_5.join_chat("TYSON_SUPPORT_GROUP")
         except:
             pass
         console.print(f"├[red] Assistant 5 Started as {ASSNAME5}!")
@@ -222,11 +222,11 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await LOG_CLIENT.join_chat("OfficialYukki")
-            await LOG_CLIENT.join_chat("YukkiSupport")
+            await LOG_CLIENT.join_chat("TEAM_TYSON")
+            await LOG_CLIENT.join_chat("TYSON_SUPPORT_GROUP")
         except:
             pass
-    console.print(f"└[red] Yukki Music Bot Boot Completed.")
+    console.print(f"└[red] Tyson Music Bot Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
@@ -241,11 +241,11 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-A Telegram Music+Video Streaming bot with some useful features.
-
-All commands can be used with: / """
+home_text_pm = f"""─────「 [{BOT_NAME}](https://telegra.ph/file/feb1a50ba16937e468da6.jpg) 」─────
+Hey ! I'm {BOT_NAME} An Advanced Voice + Video Streaming Robot.
+───────────────────────
+➛ Try The Options Below To Know My Abilities.
+"""
 
 
 @app.on_message(filters.command("help") & filters.private)
